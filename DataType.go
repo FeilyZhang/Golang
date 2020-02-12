@@ -40,4 +40,16 @@ func main() {
 	fmt.Printf("The type of f64 is %T\n", f64)
 	fmt.Printf("The type of fsum is %T\n", fsum)
 
+	/*
+	 * bool
+	 */
+	var bol bool = false
+	fmt.Printf("The type of bol is %T\n", bol)
+	fmt.Println(1 == 2)
+
+	/*
+	 * string
+	 */
+	var str string = "hello, world"
+	fmt.Println(str)
 }
